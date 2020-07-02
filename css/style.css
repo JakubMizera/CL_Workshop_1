@@ -216,6 +216,7 @@ article p{
     text-transform: uppercase;
     padding: 10px 25px;
     border-radius: 40px;
+    box-shadow: 0 3px 6px #FF00004D;
 }
 
 article img{
@@ -225,7 +226,7 @@ article img{
 
 .serv{
     background-color: #28272C;
-    height: 75vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -250,4 +251,15 @@ article img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.picture img{
+    max-width: 444px;
+    max-height: 317px;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
