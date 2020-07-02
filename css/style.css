@@ -17,6 +17,15 @@ a{
     text-decoration: none;
 }
 
+.overlay::before{
+    content: "";
+    width: 100%;
+    height: 95vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+}
+
 .container{
     width: 1088px;
     margin: 0 auto;
@@ -28,9 +37,19 @@ a{
 header{
     background-image: url(../images/Image.jpg);
     background-size: cover;
+    min-height: 95vh;
     /* display: flex;
     justify-content: space-around;
     align-items: center; */
+}
+
+header::before{
+    content: "";
+    width: 100%;
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
 }
 
 .page-nav-list{
@@ -87,6 +106,8 @@ h1{
     text-shadow: 0px 3px 6px #00000040;
     opacity: 1;
     text-transform: uppercase;
+    padding: 10px;
+    margin: 20px;
 }
 
 .banner-text{
@@ -95,6 +116,8 @@ h1{
     font-size: 16px;
     color: #FFFFFF;
     max-width: 800px;
+    padding: 5px;
+    margin-bottom: 30px;
 }
 
 .banner-btn{
