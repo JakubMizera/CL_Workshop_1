@@ -20,7 +20,7 @@ a{
 .overlay::before{
     content: "";
     width: 100%;
-    height: 95vh;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
     top: 0;
@@ -37,7 +37,7 @@ a{
 header{
     background-image: url(../images/Image.jpg);
     background-size: cover;
-    min-height: 95vh;
+    min-height: 100vh;
     /* display: flex;
     justify-content: space-around;
     align-items: center; */
@@ -150,4 +150,12 @@ h1{
 .btn-2{
     background-color: #ffffff;
     color: #FF0000;
+}
+
+.main-container{
+    margin: 0 auto;
+    width: 1088px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
