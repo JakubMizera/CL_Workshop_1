@@ -94,6 +94,7 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 200px;
 }
 
 h1{
@@ -158,4 +159,48 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.articles{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 35px;
+    color: black;
+    text-transform: uppercase;
+    margin: 60px 10px;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    color: #6A6A6A;
+    font-size: 19px;
+    font-family: "Nunito Sans";
+    text-transform: uppercase;
+}
+
+article p{
+    color: #6A6A6A;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Nunito Sans";
+}
+
+.btn-3{
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    text-align: center;
+    background-color: #FF0000;
+    color: white;
+    border-radius: 40px;
+    padding: 10px;
 }
