@@ -277,4 +277,9 @@ article img{
     align-items: flex-start;
 }
 
-
+.footer-container{
+    width: 1088px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
