@@ -42,4 +42,25 @@ header > div{
 .page-nav-list li a{
     color: #ffffff;
     font: Bold 16px/22px "Nunito Sans";
+    text-align: left;
+}
+
+.page-logo{
+    font: Bold 35px/47px "Nunito Sans";
+    color: #ffffff;
+    opacity: 1;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+span{
+    font: ExtraBold 35px/47px "Nunito Sans";
+    color: #ff0000;
+    margin-right: 5px;
+}
+
+.container a img{
+    width: 35px;
+    height: 31px;
 }
